@@ -1,73 +1,88 @@
 {
-	"users": [
-		{
-			"id": "001",
-			"login": "dmitriy",
-			"pssword": "1234",
-			"registret_at": "2025-10-28",
-			"role_id": 0
-		}
-	],
-	"role": [
-		{
-			"id":0,
-			"name": "Администратор"
-		},
-		{
-			"id":1,
-			"name": "Модератор"
-		},{
-			"id":2,
-			"name": "Читатель"
-		},{
-			"id":3,
-			"name": "Администратор"
-		}
-	],
-	"posts": [
-		{
-			"id": "001",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		},
-		{
-			"id": "002",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		},
-		{
-			"id": "003",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		},
-		{
-			"id": "004",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		},
-		{
-			"id": "005",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		},
-		{
-			"id": "006",
-			"title": "test",
-			"content": "wefb iuwefiuwebfi wiefub",
-			"imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
-			"published_at": "2025-10-8"
-		}
-	],
-	"comments": []
-
+  "users": [
+    {
+      "id": "001",
+      "login": "dmitriy",
+      "pssword": "1234",
+      "registret_at": "2025-10-28",
+      "role_id": 0
+    },
+    {
+      "id": "1bb2",
+      "login": "test",
+      "password": "test",
+      "created_at": "2025-02-11 18:05",
+      "role_id": 2
+    },
+    {
+      "id": "7d71",
+      "login": "test1",
+      "password": "test",
+      "created_at": "2025-02-11 18:12",
+      "role_id": 2
+    }
+  ],
+  "role": [
+    {
+      "id": "0",
+      "name": "Администратор"
+    },
+    {
+      "id": "1",
+      "name": "Модератор"
+    },
+    {
+      "id": "2",
+      "name": "Читатель"
+    },
+    {
+      "id": "3",
+      "name": "Администратор"
+    }
+  ],
+  "posts": [
+    {
+      "id": "001",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    },
+    {
+      "id": "002",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    },
+    {
+      "id": "003",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    },
+    {
+      "id": "004",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    },
+    {
+      "id": "005",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    },
+    {
+      "id": "006",
+      "title": "test",
+      "content": "wefb iuwefiuwebfi wiefub",
+      "imgage_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yY3az2V6t7_VtHuplQpfGuXCmpX58kxZaA&s",
+      "published_at": "2025-10-8"
+    }
+  ],
+  "comments": []
 }

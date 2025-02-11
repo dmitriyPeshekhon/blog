@@ -1,0 +1,1 @@
+export { ROLE } from './role';
