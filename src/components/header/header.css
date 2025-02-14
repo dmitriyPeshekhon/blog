@@ -11,6 +11,8 @@
 
 .logo-container {
 	display: flex;
+	text-decoration: none;
+	color: #000;
 }
 
 .logo-text-container {
@@ -22,11 +24,43 @@
 }
 
 .logo-big-text {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 500;
 }
 
 .logo-small-text {
 	font-size: 21px;
 	font-weight: 400;
+}
+
+.center-text {
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.3;
+	font-weight: 400;
+}
+
+.control-panel {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+.top-panel {}
+
+.header-login-btn {
+	font-size: 16px;
+	font-weight: 500;
+ 	padding: 4px 10px;
+}
+
+.down-panel {
+	display: flex;
+	margin: 10px 0 0 0;
+}
+
+.user-name {
+	font-weight: 600;
+    font-size: 20px;
+	margin: 0 15px 0 0;
 }
