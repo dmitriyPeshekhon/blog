@@ -1,0 +1,20 @@
+.container-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.form-login {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.link-to-register {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 18px;
+	margin: 20px 0 0;
+}

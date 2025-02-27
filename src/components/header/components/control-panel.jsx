@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { Icon } from '../../';
+import { Icon, Button } from '../../';
 
 export const ControlPanel = () => {
 	const navigate = useNavigate();
@@ -11,9 +11,9 @@ export const ControlPanel = () => {
 				<Link to="/login">
 					<Icon iconCode="fa-sign-out" />
 				</Link> */}
-				<Link to="/login">
-					<button className="header-login-btn">Войти</button>
-				</Link>
+				<Button>
+					<Link to="/login">Войти</Link>
+				</Button>
 			</div>
 			<div className="down-panel">
 				<div onClick={() => navigate(-1)}>

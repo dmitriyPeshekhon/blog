@@ -1,3 +1,6 @@
-export { Header } from './header/header';
-export { Footer } from './footer/footer';
-export { Icon } from './icon/icon';
+export * from './header/header';
+export * from './footer/footer';
+export * from './icon/icon';
+export * from './input-error/inputError';
+export * from './input/input';
+export * from './button/button';

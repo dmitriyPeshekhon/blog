@@ -2,7 +2,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
 	padding: 20px 40px;
+	width: 1200px;
 	height: 120px;
 	background: #e6e6e6;
 	border-radius: 0 0 15px 15px  ;
@@ -46,12 +49,8 @@
  align-items: flex-end;
 }
 
-.top-panel {}
-
-.header-login-btn {
-	font-size: 16px;
-	font-weight: 500;
- 	padding: 4px 10px;
+.top-panel {
+	width: 100%;
 }
 
 .down-panel {

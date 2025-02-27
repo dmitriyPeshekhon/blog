@@ -1,8 +1,17 @@
 .container {
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
+	padding: 140px 0 0 0;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+}
+
+.content {
+	background: white;
+	padding: 20px 40px;
+	border-radius: 15px 15px 0 0;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
 }
