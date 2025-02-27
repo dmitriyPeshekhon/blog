@@ -2,7 +2,6 @@ import { Header, Footer } from '../components';
 import { Login } from '../pages';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import { server } from '../bff/bff';
 
 export const App = () => {
 	return (
