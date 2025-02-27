@@ -1,5 +1,5 @@
 import { getUser } from './get-user';
-import { createSession } from './create-session';
+import { session } from './sessions';
 import { registrationUser } from './registration-user';
 
 export const server = {
@@ -9,17 +9,25 @@ export const server = {
 		if (!usersArray) {
 			return {
 				error: 'Ошибка авторизации',
-				session: null,
+				userData: null,
 			};
 		} else if (usersArray[0]) {
 			return {
 				error: 'Неправильно введен логин или пароль',
-				session: null,
+				userData: null,
 			};
 		} else if (usersArray[0].password === enteredPassword) {
+			const { id, login, role_id } = usersArray[0];
+
+			const authUser = {
+				id: id,
+				login: login,
+				roleId: role_id,
+			};
+
 			return {
 				error: null,
-				session: createSession(usersArray[0].role_id),
+				userData: session.create(authUser),
 			};
 		}
 	},
@@ -29,24 +37,30 @@ export const server = {
 		if (!usersArray) {
 			return {
 				error: 'Ошибка регистрации',
-				session: null,
+				userData: null,
 			};
 		} else if (usersArray[0]) {
 			return {
 				error: 'Пользователь с таким логином уже существует',
-				session: null,
+				userData: null,
 			};
 		} else if (!usersArray[0]) {
 			const addiedUser = await registrationUser(enteredLogin, enteredPassword);
 			if (addiedUser) {
+				const user = {
+					id: addiedUser.id,
+					login: addiedUser.login,
+					roleId: addiedUser.role_id,
+				};
+
 				return {
 					error: null,
-					session: createSession(addiedUser.role_id),
+					userData: session.create(user),
 				};
 			} else {
 				return {
 					error: 'Ошибка регистрации',
-					session: null,
+					userData: null,
 				};
 			}
 		}
