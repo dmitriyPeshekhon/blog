@@ -1,8 +1,22 @@
-export const Icon = ({ iconCode, size = '24px', margin }) => {
+export const Icon = ({ iconCode, size = '24px', margin, disabled, ...props }) => {
 	return (
-		<i
-			className={`fa ${iconCode}`}
-			style={{ fontSize: size, margin: margin, color: '#000' }}
-		/>
+		<div
+			{...props}
+			style={{
+				width: size,
+				height: size,
+				margin: margin,
+				display: 'flex',
+				justifyContent: 'center',
+			}}
+		>
+			<i
+				className={`fa ${iconCode}`}
+				style={{
+					fontSize: size,
+					color: disabled ? '#ccc' : '#000',
+				}}
+			/>
+		</div>
 	);
 };

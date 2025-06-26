@@ -1,0 +1,21 @@
+.post-special-pannel {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 15px 0;
+}
+
+.created-at-special-pannel {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+}
+
+.created-at-special-pannel span {
+	font-size: 20px;
+}
+
+.buttons-special-pannel {
+	display: flex;
+	align-items: center;
+}

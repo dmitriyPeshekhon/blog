@@ -1,4 +1,4 @@
-import { Icon } from '../';
+import { Icon } from '..';
 import { ControlPanel } from './components';
 import { Link } from 'react-router-dom';
 import './header.css';

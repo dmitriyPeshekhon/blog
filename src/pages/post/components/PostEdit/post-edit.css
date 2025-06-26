@@ -1,0 +1,6 @@
+.editable-content-post {
+	white-space: pre-line;
+	border: solid 1px #000;
+	border-radius: 5px;
+	padding: 10px;
+}

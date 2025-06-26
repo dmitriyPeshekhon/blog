@@ -1,0 +1,55 @@
+.title-users {
+	text-align: center;
+}
+
+.margin-left {
+	margin-left: 12px ;
+}
+
+.table-header {
+	font-size: 20px;
+	font-weight: 600;
+	width: 100%;
+	display: flex;
+}
+
+.login-table-column {
+	width: 300px;
+}
+
+.register-at-table-column {
+	width: 300px;
+}
+
+.role-table-column {
+	width: 200px;
+}
+
+.role-table-column-flex {
+	display: flex;
+}
+
+.role-table-column select {
+	width: 100%;
+}
+
+.list-users {
+	padding: 0;
+	margin: 0;
+}
+
+.user-item {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 10px 0 0;
+}
+
+.container-user-item {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	border: solid 2px #000;
+	border-radius: 5px;
+	padding: 10px;
+}

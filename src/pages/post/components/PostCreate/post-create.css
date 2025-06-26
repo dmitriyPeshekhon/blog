@@ -1,0 +1,16 @@
+.editable-content-post-create {
+	white-space: pre-line;
+	border: solid 1px #000;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.save-panel-post-create {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 0 20px 0;
+}
+
+.save-post-create-btn {
+	border-radius: 5px;
+}

@@ -1,12 +1,19 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import { thunk } from 'redux-thunk';
-import { userReducer, usersReducer, postReducer, postsReducer } from './reducers';
+import {
+	userReducer,
+	postReducer,
+	errorsReducer,
+	modalReducer,
+	paginateReducer,
+} from './reducers';
 
 const reducer = combineReducers({
 	user: userReducer,
-	users: usersReducer,
 	post: postReducer,
-	posts: postsReducer,
+	errors: errorsReducer,
+	modal: modalReducer,
+	pages: paginateReducer,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

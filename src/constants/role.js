@@ -4,3 +4,5 @@ export const ROLE = {
 	READER: 2,
 	GUEST: 3,
 };
+
+export const getRolesArray = () => Object.keys(ROLE).map((role) => role.toLowerCase());

@@ -1,0 +1,41 @@
+.list-post-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px	;
+	margin: 0 0 30px;
+}
+
+.post-card {
+	border: 1px solid #000;
+	border-radius: 8px;
+	box-shadow: 1px 1px 15px -4px;
+}
+
+.img-post-card {
+	border-radius: 7px 7px 0 0;
+	width: 100%;
+}
+
+.post-card h4 {
+	margin: 0 10px 15px 10px;
+}
+
+.post-card-footer-panel {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px 15px 10px;
+}
+
+.post-card-footer-panel-published-at {
+	display: flex;
+}
+
+.post-card-footer-panel-comments {
+	display: flex;
+}
+
+.search-no-results {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 25px;
+}

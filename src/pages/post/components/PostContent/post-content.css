@@ -1,0 +1,16 @@
+.content-post {
+	margin: 0 0 20px 0;
+}
+
+.img-post {
+	width: 300px;
+	height: 200px;
+	border-radius: 5px;
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+.post-content {
+	white-space: pre-line;
+	font-size: 19px;
+}

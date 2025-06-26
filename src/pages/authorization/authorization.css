@@ -1,0 +1,12 @@
+.form-auth {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.link-to-reg-auth {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 18px;
+	margin: 20px 0 0;
+}
